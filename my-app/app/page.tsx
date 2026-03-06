@@ -8,7 +8,6 @@ function TopMenu() {
     <Navbar expand="lg" id="top" className="py-3">
       <Container>
 
-        {/* Logo */}
         <Navbar.Brand href="#">
           <Image
             alt="canes-logo"
@@ -17,13 +16,10 @@ function TopMenu() {
           />
         </Navbar.Brand>
 
-        {/* Mobile Menu Toggle */}
         <Navbar.Toggle aria-controls="main-navbar" />
 
-        {/* Collapsible Menu */}
         <Navbar.Collapse id="main-navbar">
 
-          {/* Center Navigation */}
           <Nav className="mx-auto gap-4 fw-bold">
             <Nav.Link>Our Menu</Nav.Link>
             <Nav.Link>Locations</Nav.Link>
@@ -33,7 +29,7 @@ function TopMenu() {
             <Nav.Link>Gift Cards & Gear</Nav.Link>
           </Nav>
 
-          {/* Order Button */}
+
           <Nav>
             <Button
               style={{
@@ -57,7 +53,6 @@ function CenterMenu() {
   return (
     <Container fluid className="px-4 my-4 position-relative">
 
-      {/* Hero Image */}
       <Image
         src="https://townsquare.media/site/396/files/2024/01/attachment-Raising-Canes-2.jpg"
         fluid
@@ -67,7 +62,6 @@ function CenterMenu() {
         alt="main-img"
       />
 
-      {/* Button Overlay */}
       <Row className="position-absolute top-50 start-0 translate-middle-y w-100">
         <Col xs="auto" className="ms-5">
           <Button variant="danger" size="lg">
